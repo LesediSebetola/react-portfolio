@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a88e5df4.css",
-    "main.js": "/react-portfolio/static/js/main.61cb8ed7.js",
+    "main.js": "/react-portfolio/static/js/main.7973be54.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
-    "static/media/portfolio.PNG": "/react-portfolio/static/media/portfolio.be842ad913d83d526035.PNG",
+    "static/media/portfolio.jpg": "/react-portfolio/static/media/portfolio.13b7908432dd81d397c3.jpg",
+    "static/media/BankIT.PNG": "/react-portfolio/static/media/BankIT.be842ad913d83d526035.PNG",
     "static/media/gaza technologies.png": "/react-portfolio/static/media/gaza technologies.e4b3857848b5a34b6524.png",
+    "static/media/unnamed.png": "/react-portfolio/static/media/unnamed.f621ba8ca56c2e34fbce.png",
     "static/media/notes.PNG": "/react-portfolio/static/media/notes.36340fcea3b6cb3c0d59.PNG",
     "static/media/profilePic.jpg": "/react-portfolio/static/media/profilePic.4c397b847472c7a752ee.jpg",
     "static/media/todo.jpg": "/react-portfolio/static/media/todo.ad4eb5b43788de0239b8.jpg",
+    "static/media/depositphotos_38143799-stock-photo-e-commerce-shopping-cart-with.jpg": "/react-portfolio/static/media/depositphotos_38143799-stock-photo-e-commerce-shopping-cart-with.b38ed22f8ff08a9b7a9c.jpg",
     "static/media/calculator.webp": "/react-portfolio/static/media/calculator.610b6e53950037d752ce.webp",
     "index.html": "/react-portfolio/index.html",
     "main.a88e5df4.css.map": "/react-portfolio/static/css/main.a88e5df4.css.map",
-    "main.61cb8ed7.js.map": "/react-portfolio/static/js/main.61cb8ed7.js.map",
+    "main.7973be54.js.map": "/react-portfolio/static/js/main.7973be54.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a88e5df4.css",
-    "static/js/main.61cb8ed7.js"
+    "static/js/main.7973be54.js"
   ]
 }
