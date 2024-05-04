@@ -3,12 +3,42 @@ import GazaTech from "../Assets/gaza technologies.png";
 import calculator from "../Assets/calculator.webp";
 import notes from "../Assets/notes.PNG";
 import todo from "../Assets/todo.jpg";
-import portfolio from "../Assets/portfolio.PNG";
+import portfolio from "../Assets/portfolio.jpg";
+import ecommerce from "../Assets/depositphotos_38143799-stock-photo-e-commerce-shopping-cart-with.jpg"
+import weather from "../../src/Assets/unnamed.png"
+import bank from "../Assets/BankIT.PNG"
+
 
 const Projects = () => {
   return (
     <div className='border-b border-neutral-900 bp-4'>
         <h2 className='my-20 text-center text-4xl'>Projects</h2>
+
+        <div>
+          <div className='mb-8 flex flex-wrap lg:justify-center'>
+            <div className='w-full lg:w-1/4'>
+            <img src={ecommerce} width={150} height={150} alt="" className='mb-6 rounded'/>
+            </div>
+            <div>
+                  <div className='w-full max-w-xl lg:w-3/4'>
+                     <h6 className='mb-2 font-semibold'>Ecommerce Website</h6>
+                     <p className='mb-4 text-neutral-400'>I have built a fully responsive frontend ecommerce website 
+                     using React.js library to showcase my abilities and capabilities to use the library. You can 
+                     view the clothing on the website, add/remove from the cart, it also performs multiple activities.</p>
+                     
+                      <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
+                      <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
+                  
+                  </div>
+                  <a href="https://github.com/LesediSebetola/ecommerce"><span className='mr-2 rounded  px-2 py-1 text-sm font-medium text-purple-900'>Source Code</span></a>
+                  <a href="https://lesedisebetola.github.io/ecommerce/"><span className='mr-2 rounded  px-2 py-1 text-sm font-medium text-purple-900'>Live Site</span></a>
+                </div>
+          </div>
+        </div>
+
+        <div>
+        
+        </div>
         
         <div>
           <div className='mb-8 flex flex-wrap lg:justify-center'>
@@ -31,7 +61,7 @@ const Projects = () => {
         <div>
           <div className='mb-8 flex flex-wrap lg:justify-center'>
             <div className='w-full lg:w-1/4'>
-            <img src={notes} width={150} height={150} alt="" className='mb-6 rounded'/>
+            <img src={weather} width={150} height={150} alt="" className='mb-6 rounded'/>
             </div>
             <div>
                   <div className='w-full max-w-xl lg:w-3/4'>
@@ -56,7 +86,7 @@ const Projects = () => {
             <div>
                   <div className='w-full max-w-xl lg:w-3/4'>
                      <h6 className='mb-2 font-semibold'>Portfolio</h6>
-                     <p className='mb-4 text-neutral-400'>Welcome to my portfolio website, crafted with precision using React.js and Tailwind CSS. Explore a collection of my projects and experience firsthand the seamless user experience and stunning design that these cutting-edge technologies have enabled. From responsive layouts to dynamic components, every detail has been carefully crafted to showcase my skills and creativity. Dive in and discover the perfect blend of functionality and aesthetics that define my work. Let's connect and bring your ideas to life!</p>
+                     <p className='mb-4 text-neutral-400'>My portfolio website crafted with precision using React.js and Tailwind CSS. Explore a collection of my projects and experience firsthand the seamless user experience and stunning design that these cutting-edge technologies have enabled. From responsive layouts to dynamic components, every detail has been carefully crafted to showcase my skills and creativity.</p>
                      
                       <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
                       <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind-CSS</span>
@@ -72,7 +102,7 @@ const Projects = () => {
         <div>
           <div className='mb-8 flex flex-wrap lg:justify-center'>
             <div className='w-full lg:w-1/4'>
-            <img src={calculator} width={150} height={150} alt="" className='mb-6 rounded'/>
+            <img src={bank} width={150} height={150} alt="" className='mb-6 rounded'/>
             </div>
             <div>
                   <div className='w-full max-w-xl lg:w-3/4'>

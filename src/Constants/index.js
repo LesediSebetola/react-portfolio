@@ -1,4 +1,4 @@
-import portfolio from "../Assets/portfolio.PNG";
+
 import GazaTech from "../Assets/gaza technologies.png";
 import calculator from "../Assets/calculator.webp";
 import notes from "../Assets/notes.PNG";
@@ -9,8 +9,12 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Freelance Frontend Developer",
     company: "Growit MC",
-    description: `A part of a team in developing and maintaining web applications using React.js.`,
-    technologies: ["Javascript", "React.js"],
+    description: `Develop responsive and user-friendly we interfaces using HTML, CSS, and JavaScript.
+    	Collaborate with design and development teams to optimize overall user experience and application performance.
+    	Implement React frontend framework to enhance functionality and interactive of web pages.
+    	Work independently to meet strict deadlines and deliver high-quality frontend solutions.
+    `,
+    technologies: ["HTML", "CSS", "Javascript", "React.js"],
   },
   {
     year: "2023 - Present",
@@ -30,13 +34,7 @@ export const PROJECTS = [
       "Gaza Technologies is a newly started company of a close friend where I helped them build their website. Collaborated to develop modular, reusable code components by writing clean, efficient code to implement new features and functionalities of the entire project and website maintenance",
     technologies: ["React.js", "CSS", "jQuery"],
   },
-  {
-    title: "Portfolio Website",
-    image: portfolio,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwind-CSS", "React.js"],
-  },
+
   {
     title: "Calculator",
     image: calculator,
